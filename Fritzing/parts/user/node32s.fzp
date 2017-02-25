@@ -597,7 +597,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="male" name="V_BATT" id="connector66">
+  <connector type="pad" name="V_BATT" id="connector66">
    <description>V_BATT</description>
    <views>
     <breadboardView>
@@ -612,7 +612,7 @@
     </pcbView>
    </views>
   </connector>
-  <connector type="male" name="GND" id="connector67">
+  <connector type="pad" name="GND" id="connector67">
    <description>GND</description>
    <views>
     <breadboardView>
