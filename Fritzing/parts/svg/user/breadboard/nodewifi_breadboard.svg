@@ -473,13 +473,59 @@
    <g  transform="matrix(0, 1, -1, 0, 80.73, -35.73)">
     <rect  x="56.61" y="21.24" stroke-width="0" id="connector207pin" rx="0.63" fill="#B98C00" width="3.24" height="2.52" ry="0.63" stroke="none"/>
    </g>
-	<g id="lbl-labels" transform="translate(12 15) rotate(0 0 0) translate(0 7.7)">
-		<g>
-			<text y="7.448" x="1.448" font-size="12" fill="#FFFFFF">NodeWiFi</text>
-			<text y="17.448" x="1.448" font-size="8" fill="#FFFFFF">ayarafun.com</text>
-			<text y="27.448" x="1.448" font-size="8" fill="#FFFFFF">lamloei.com</text>
+   
+   	<g id="centered" transform="translate(0 0)">
+		<g id="labels1" fill="none" stroke="#EEEEEE" stroke-width="0.1" stroke-linecap="round">
+			<g id="left-labels" transform="translate(2 -7) rotate(-90 0 0) translate(0 6.7)">
+				<g>
+					<text y="2.448" x="-39.448" font-size="5">3V3</text>
+					<text y="2.448" x="-48.448" font-size="5">RES</text>
+					<text y="2.448" x="-54.448" font-size="5">A0</text>
+					<text y="2.448" x="-61.448" font-size="5">EN</text>
+					<text y="2.448" x="-70.448" font-size="5">3V3</text>
+					<text y="2.448" x="-76.448" font-size="5">14</text>
+					<text y="2.448" x="-82.448" font-size="5">12</text>
+					<text y="2.448" x="-89.448" font-size="5">VB</text>
+					<text y="2.448" x="-96.448" font-size="5">13</text>
+					<text y="2.448" x="-103.448" font-size="5">09</text>
+					<text y="2.448" x="-110.448" font-size="5">10</text>
+					<text y="2.448" x="-116.448" font-size="5">11</text>
+					<text y="2.448" x="-125.448" font-size="5">VIN</text>
+				</g>
+			</g>
+			<g id="right-labels" transform="translate(56 -7) rotate(-90 0 0) translate(0 7.7)">
+				<g>
+					<text y="2.448" x="-40.448" font-size="5">GND</text>
+					<text y="2.448" x="-46.448" font-size="5">TX</text>
+					<text y="2.448" x="-52.448" font-size="5">RX</text>
+					<text y="2.448" x="-58.448" font-size="5">05</text>
+					<text y="2.448" x="-69.448" font-size="5">GND</text>
+					<text y="2.448" x="-76.448" font-size="5">16</text>
+					<text y="2.448" x="-82.448" font-size="5">04</text>
+					<text y="2.448" x="-89.448" font-size="5">00</text>
+					<text y="2.448" x="-96.448" font-size="5">02</text>
+					<text y="2.448" x="-103.448" font-size="5">15</text>
+					<text y="2.448" x="-110.448" font-size="5">08</text>
+					<text y="2.448" x="-117.448" font-size="5">07</text>
+					<text y="2.448" x="-124.448" font-size="5">06</text>
+				</g>
+			</g>
+			<g id="mid-labels" transform="translate(42 99) rotate(-90 0 0) translate(0 7.7)">
+				<g>
+					<text y="2.448" x="1.448" font-size="5">VBATT</text>
+					<text y="9.448" x="1.448" font-size="5">GND</text>
+				</g>
+			</g>
+			<g id="lbl-labels" transform="translate(11 15) rotate(0 0 0) translate(0 7.7)">
+				<g>
+					<text y="7.448" x="1.448" font-size="12">NodeWiFi</text>
+					<text y="17.448" x="1.448" font-size="8">ayarafun.com</text>
+					<text y="27.448" x="1.448" font-size="8">lamloei.com</text>
+				</g>
+			</g>
 		</g>
 	</g>
+
   </g>
  </g>
 </svg>
